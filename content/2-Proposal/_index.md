@@ -86,6 +86,20 @@ Estimated using the **AWS Pricing Calculator** based on an assumed workload of 1
 | **Credential Leakage** | High | - Never hard-code AWS Access Keys/Secret Keys in GitHub source code.<br>- Enforce IAM Least Privilege and enable MFA on the AWS account. |
 | **Infinite Event Loop** | High | - Ensure Lambda does not output processed files into the same source S3 Bucket triggering the function. |
 | **Invalid Input Data Format** | Low | - Implement robust try-catch exception handling in Lambda code to log errors to CloudWatch. |
+---
+
+### Part 7: System Architecture Diagram
+
+The system architecture consists of the following primary components:
+
+```mermaid
+graph TD
+    A[User / System] -->|Upload Raw File| B[Amazon S3: Raw Bucket]
+    B -->|S3 Event Trigger| C[AWS Lambda Function]
+    C -->|Save Cleansed Data| D[Amazon S3: Processed Bucket]
+    C -->|Write Logs| E[Amazon CloudWatch Logs]
+    E -->|If Error Alert| F[Amazon SNS Alert]
+```
 
 ---
 
@@ -96,20 +110,9 @@ Estimated using the **AWS Pricing Calculator** based on an assumed workload of 1
 - [AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/)
 - [AWS Pricing Calculator](https://calculator.aws/)
 - [Workshop Regulations - HCM Rules FCAJ](https://hcm-rules.awsfcaj.com/3-project/#23-proposal-đề-xuất-giải-pháp-workshop)
----
-### Part 7: System Architecture Diagram
 
-The system architecture consists of the following primary components:
 
-```text
-[User / System] 
-      │
-      ▼ (Upload Raw File)
-[Amazon S3: Raw Bucket] ──(S3 Event Trigger)──► [AWS Lambda Function]
-                                                         │
-                                        ┌────────────────┴────────────────┐
-                                        ▼                                 ▼
-                          [Amazon S3: Processed Bucket]       [Amazon CloudWatch Logs]
-                                                                          │
-                                                                          ▼ (If Error)
-                                                                 [Amazon SNS Alert]
+
+
+
+

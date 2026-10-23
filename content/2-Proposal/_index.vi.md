@@ -87,7 +87,20 @@ Dựa trên công cụ **AWS Pricing Calculator** với giả định lưu lư�
 | **Rò rỉ thông tin xác thực (Security Leak)** | Cao | - Không hard-code Access Key/Secret Key trong mã nguồn GitHub.<br>- Áp dụng IAM Least Privilege và bật MFA cho tài khoản AWS. |
 | **Lỗi vòng lặp vô tận (Infinite Loop Event)** | Cao | - Tránh việc Lambda ghi trực tiếp file mới vào cùng S3 Raw Bucket đã dùng để kích hoạt sự kiện. |
 | **Lỗi định dạng dữ liệu đầu vào (Invalid Data Format)** | Thấp | - Bổ sung khối try-catch trong code Lambda để xử lý ngoại lệ và đẩy log lỗi lên CloudWatch. |
+---
 
+### Phần 7: Kiến trúc giải pháp sơ bộ 
+
+Kiến trúc hệ thống bao gồm các thành phần chính:
+
+```mermaid
+graph TD
+    A[User / System] -->|Upload Raw File| B[Amazon S3: Raw Bucket]
+    B -->|S3 Event Trigger| C[AWS Lambda Function]
+    C -->|Save Cleansed Data| D[Amazon S3: Processed Bucket]
+    C -->|Write Logs| E[Amazon CloudWatch Logs]
+    E -->|If Error Alert| F[Amazon SNS Alert]
+```
 ---
 
 ### Tài liệu tham khảo 
@@ -97,22 +110,4 @@ Dựa trên công cụ **AWS Pricing Calculator** với giả định lưu lư�
 - [AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/)
 - [AWS Pricing Calculator](https://calculator.aws/)
 - [Quy định về Workshop - HCM Rules FCAJ](https://hcm-rules.awsfcaj.com/3-project/#23-proposal-đề-xuất-giải-pháp-workshop)
-
-
-### Phần 7: Kiến trúc giải pháp sơ bộ 
-
-Kiến trúc hệ thống bao gồm các thành phần chính:
-
-```text
-[User / System] 
-      │
-      ▼ (Upload Raw File)
-[Amazon S3: Raw Bucket] ──(S3 Event Trigger)──► [AWS Lambda Function]
-                                                         │
-                                        ┌────────────────┴────────────────┐
-                                        ▼                                 ▼
-                          [Amazon S3: Processed Bucket]       [Amazon CloudWatch Logs]
-                                                                          │
-                                                                          ▼ (If Error)
-                                                                 [Amazon SNS Alert]
 
