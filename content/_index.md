@@ -13,25 +13,25 @@ chapter: false
 {{% /notice %}}
 
 ### Student Information:
-&emsp; **Full Name:** Nguyen Van A
+&emsp; **Full Name:** Tran Thi Thanh Truc
 
-&emsp; **Phone Number:** 0989888999 
+&emsp; **Phone Number:** 0372800569 
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** 25521950@gm.uit.edu
 
 &emsp; **University:** Ho Chi Minh City University of Technology and Education
 
-&emsp; **Major:** Information Technology
+&emsp; **Major:** Sofware Engineering
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** KTPM2025.3
 
 &emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
 
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Duration:** From 03/10/2026 to 03/10/2027
 
-![Your profile picture](/images/avatar.png)
+![Your profile picture](/images/avatar.jpg)
 
 ### Report Content
 

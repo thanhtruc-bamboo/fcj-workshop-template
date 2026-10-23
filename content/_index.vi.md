@@ -7,25 +7,25 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Văn A
+&emsp; **Họ và tên:** Trần Thị Thanh Trúc
 
-&emsp; **Số điện thoại:** 0989888999
+&emsp; **Số điện thoại:** 0372800569
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** 25521950@gm.uit.edu
 
-&emsp; **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM
+&emsp; **Trường:** Trường Đại học Công nghệ Thông tin - ĐHQG TP.HCM (UIT)
 
-&emsp; **Ngành:** Công nghệ thông tin
+&emsp; **Ngành:** Kỹ thuật Phần mềm
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Lớp:** KTPM2025.3
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
 
 &emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
+&emsp; **Thời gian thực tập:** Từ ngày 03/10/2026 đến ngày 03/04/2027
 
-![Ảnh đại diện của bạn](/images/avatar.png)
+![Ảnh đại diện của bạn](/images/avatar.jpg)
 
 
 
