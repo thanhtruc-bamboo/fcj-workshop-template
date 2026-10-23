@@ -9,12 +9,11 @@ pre: " <b> 1.1. </b> "
 
 | Day | Task Description | Start Date | End Date |
 | :---: | :--- | :---: | :---: |
-| **Mon** | - Connect and interact with members of the First Cloud AI Journey (FCAJ) program.<br>- Read, understand, and adhere to the internal regulations and policies. | 08/11/2025 | 08/11/2025 |
-| **Tue** | - Learn the fundamentals of AWS and its core service categories:<br>&emsp;+ Compute (EC2, Lambda, etc.)<br>&emsp;+ Storage (S3, EBS, EFS, etc.)<br>&emsp;+ Networking (VPC, Route 53, etc.)<br>&emsp;+ Database (RDS, DynamoDB, etc.) | 08/12/2025 | 08/12/2025 |
-| **Wed** | - Register for an AWS Free Tier account.<br>- Explore the AWS Management Console & AWS Command Line Interface (AWS CLI).<br>- **Hands-on:**<br>&emsp;+ Create an AWS account.<br>&emsp;+ Install AWS CLI v2 on personal computer.<br>&emsp;+ Configure credentials (`aws configure`). | 08/13/2025 | 08/13/2025 |
-| **Thu** | - Research Amazon EC2 basics:<br>&emsp;+ Instance types, AMIs, and EBS storage.<br>&emsp;+ SSH connection methods to EC2.<br>&emsp;+ Elastic IP concepts and use cases. | 08/14/2025 | 08/15/2025 |
-| **Fri** | - **Hands-on:**<br>&emsp;+ Launch an EC2 Instance on AWS Console.<br>&emsp;+ Connect via SSH from personal machine.<br>&emsp;+ Create and attach an EBS volume to the EC2 Instance. | 08/15/2025 | 08/15/2025 |
-
+| **Mon** | - Connect and interact with members of the First Cloud AI Journey (FCAJ) program.<br>- Read, understand, and adhere to the internal regulations and policies. | 08/05/2025 | 08/05/2025 |
+| **Tue** | - Learn the fundamentals of AWS and its core service categories:<br>&emsp;+ Compute (EC2, Lambda, etc.)<br>&emsp;+ Storage (S3, EBS, EFS, etc.)<br>&emsp;+ Networking (VPC, Route 53, etc.)<br>&emsp;+ Database (RDS, DynamoDB, etc.) | 08/06/2025 | 08/06/2025 |
+| **Wed** | - Register for an AWS Free Tier account.<br>- Explore the AWS Management Console & AWS Command Line Interface (AWS CLI).<br>- **Hands-on:**<br>&emsp;+ Create an AWS account.<br>&emsp;+ Install AWS CLI v2 on personal computer.<br>&emsp;+ Configure credentials (`aws configure`). | 08/07/2025 | 08/07/2025 |
+| **Thu** | - Research Amazon EC2 basics:<br>&emsp;+ Instance types, AMIs, and EBS storage.<br>&emsp;+ SSH connection methods to EC2.<br>&emsp;+ Elastic IP concepts and use cases. | 08/08/2025 | 08/08/2025 |
+| **Fri** | - **Hands-on:**<br>&emsp;+ Launch an EC2 Instance on AWS Console.<br>&emsp;+ Connect via SSH from personal machine.<br>&emsp;+ Create and attach an EBS volume to the EC2 Instance. | 08/09/2025 | 08/11/2025 |
 ---
 
 ## 2. Results Achieved

@@ -9,12 +9,11 @@ pre: " <b> 1.1. </b> "
 
 | Thứ | Nội dung công việc | Ngày bắt đầu | Ngày hoàn thành |
 | :---: | :--- | :---: | :---: |
-| **2** | - Giao lưu, làm quen với các thành viên trong chương trình First Cloud AI Journey (FCAJ).<br>- Đọc và nắm rõ các nội quy, quy định làm việc tại đơn vị thực tập. | 11/08/2025 | 11/08/2025 |
-| **3** | - Tìm hiểu tổng quan về AWS và các nhóm dịch vụ cơ bản:<br>&emsp;+ Compute (EC2, Lambda,...)<br>&emsp;+ Storage (S3, EBS, EFS,...)<br>&emsp;+ Networking (VPC, Route 53,...)<br>&emsp;+ Database (RDS, DynamoDB,...) | 12/08/2025 | 12/08/2025 |
-| **4** | - Đăng ký tài khoản AWS Free Tier.<br>- Tìm hiểu giao diện AWS Management Console & công cụ dòng lệnh AWS CLI.<br>- **Thực hành:**<br>&emsp;+ Khởi tạo tài khoản AWS.<br>&emsp;+ Cài đặt AWS CLI v2 trên máy tính cá nhân.<br>&emsp;+ Cấu hình thông tin xác thực (`aws configure`). | 13/08/2025 | 13/08/2025 |
-| **5** | - Nghiên cứu dịch vụ EC2 cơ bản:<br>&emsp;+ Các loại Instance types, AMI, lưu trữ EBS.<br>&emsp;+ Các phương thức kết nối SSH vào EC2.<br>&emsp;+ Khái niệm và ứng dụng của Elastic IP. | 14/08/2025 | 15/08/2025 |
-| **6** | - **Thực hành:**<br>&emsp;+ Khởi tạo EC2 Instance trên AWS Console.<br>&emsp;+ Kết nối SSH từ máy tính cá nhân vào EC2.<br>&emsp;+ Tạo và gắn (attach) ổ đĩa EBS volume vào EC2 Instance. | 15/08/2025 | 15/08/2025 |
-
+| **2** | - Giao lưu, làm quen với các thành viên trong chương trình First Cloud AI Journey (FCAJ).<br>- Đọc và nắm rõ các nội quy, quy định làm việc tại đơn vị thực tập. | 05/08/2025 | 05/08/2025 |
+| **3** | - Tìm hiểu tổng quan về AWS và các nhóm dịch vụ cơ bản:<br>&emsp;+ Compute (EC2, Lambda,...<br>&emsp;+ Storage (S3, EBS, EFS,...)<br>&emsp;+ Networking (VPC, Route 53,...)<br>&emsp;+ Database (RDS, DynamoDB,...) | 06/08/2025 | 06/08/2025 |
+| **4** | - Đăng ký tài khoản AWS Free Tier.<br>- Tìm hiểu giao diện AWS Management Console & công cụ dòng lệnh AWS CLI.<br>- **Thực hành:**<br>&emsp;+ Khởi tạo tài khoản AWS.<br>&emsp;+ Cài đặt AWS CLI v2 trên máy tính cá nhân.<br>&emsp;+ Cấu hình thông tin xác thực (`aws configure`). | 07/08/2025 | 07/08/2025 |
+| **5** | - Nghiên cứu dịch vụ EC2 cơ bản:<br>&emsp;+ Các loại Instance types, AMI, lưu trữ EBS.<br>&emsp;+ Các phương thức kết nối SSH vào EC2.<br>&emsp;+ Khái niệm và ứng dụng của Elastic IP. | 08/08/2025 | 08/08/2025 |
+| **6** | - **Thực hành:**<br>&emsp;+ Khởi tạo EC2 Instance trên AWS Console.<br>&emsp;+ Kết nối SSH từ máy tính cá nhân vào EC2.<br>&emsp;+ Tạo và gắn (attach) ổ đĩa EBS volume vào EC2 Instance. | 09/08/2025 | 11/08/2025 |
 ---
 
 ## 2. Kết quả đạt được
