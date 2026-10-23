@@ -59,7 +59,7 @@ Dự án được chia thành các giai đoạn thực hiện từ **Tuần 1 đ
 | **Tuần 5 - 6** | Viết code xử lý dữ liệu cho AWS Lambda và cấu hình S3 Event Notification. | Mã nguồn Lambda hoàn chỉnh, sự kiện tự động kích hoạt thành công. |
 | **Tuần 7 - 8** | Tích hợp Amazon CloudWatch Logs, cấu hình Metrics và Amazon SNS Alarms. | Hệ thống ghi log và cảnh báo tự động khi phát sinh lỗi. |
 | **Tuần 9 - 10** | Kiểm thử toàn bộ hệ thống (End-to-End Testing), tối ưu hóa hiệu năng và bộ nhớ Lambda. | Báo cáo kiểm thử, hệ thống vận hành ổn định. |
-| **Tuần 11 - 12** | Hoàn thiện tài liệu Workshop kỹ thuật song ngữ, dự toán chi phí, tạo video/link Demo và dọn dẹp tài nguyên. | Website Workshop hoàn chỉnh công khai trên GitHub Pages. |
+| **Tuần 11 - 12** | Hoàn thiện tài liệu Workshop kỹ thuật song ngữ, dự toán chi phí, tạo video/link Demo và dọn dẹp tài nguyên. | Website Workshop hoàn chỉnh công khai trên GitHub Pages. |  
 
 ---
 
