@@ -25,8 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 03/10/2026 đến ngày 03/04/2027
 
-![Ảnh đại diện của bạn](/images/avatar.jpg)
-
+<img src="{{ "images/avatar.jpg" | relURL }}" alt="Ảnh đại diện của bạn" />
 
 
 ### Nội dung báo cáo
