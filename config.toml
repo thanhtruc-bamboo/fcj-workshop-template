@@ -1,6 +1,6 @@
 baseURL = "https://thanhtruc-bamboo.github.io/fcj-workshop-template/"
-relativeURLs = true
-canonifyURLs = true
+relativeURLs = false
+canonifyURLs = false
 defaultContentLanguage = "en"
 
 # Change the default theme to be use when building the site with Hugo
